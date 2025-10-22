@@ -9,8 +9,8 @@
 			"path": "web-client"
 		},
 		{
-			"name": "heavy client",
-			"path": "heavy-client"
+			"name": "Tkinter client",
+			"path": "tkinter-client"
 		},
 		{
 			"name": "server wiki",
@@ -107,7 +107,7 @@
 			{
 				"label": "Generate doc",
 				"type": "shell",
-				"command": "env/bin/mc-srv-manager-doc-gen",
+				"command": "env/bin/modular-server-manager-doc-gen",
 				"group": {"kind": "build", "isDefault": false},
 				"problemMatcher": [],
 				"presentation": {
@@ -122,7 +122,7 @@
 			{
 				"label": "Decode Event",
 				"type": "shell",
-				"command": "env/bin/mc-srv-manager-event-decoder",
+				"command": "env/bin/modular-server-manager-event-decoder",
 				"args": ["${input:event}", "${input:raw_mode}", "${input:has_prefix}"],
 				"group": {"kind": "none", "isDefault": false},
 				"problemMatcher": [],
