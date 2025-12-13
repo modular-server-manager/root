@@ -33,7 +33,7 @@
 			"*.hta": "html",
 			"*.template": "html",
 			"python.h": "c",
-			"*/config.json": "jsonc"
+			"**/config.json": "jsonc"
 		},
 		"python.analysis.inlayHints.callArgumentNames": "partial",
 		"python.analysis.inlayHints.functionReturnTypes": true,
