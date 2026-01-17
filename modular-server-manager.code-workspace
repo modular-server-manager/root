@@ -5,16 +5,16 @@
 			"path": "server"
 		},
 		{
+			"name": "server wiki",
+			"path": "server.wiki"
+		},
+		{
 			"name": "web client",
 			"path": "web-client"
 		},
 		{
 			"name": "Tkinter client",
 			"path": "tkinter-client"
-		},
-		{
-			"name": "server wiki",
-			"path": "server.wiki"
 		},
 		{
 			"name": "minecraft",
