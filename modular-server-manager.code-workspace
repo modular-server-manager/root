@@ -1,21 +1,28 @@
 {
 	"folders": [
 		{
-			"name": "server",
+			"name": "core",
 			"path": "server"
 		},
 		{
-			"name": "server wiki",
+			"name": "core wiki",
 			"path": "server.wiki"
 		},
 		{
 			"name": "web client",
 			"path": "web-client"
+		},{
+			"name": "web server",
+			"path": "web-server"
 		},
 		{
 			"name": "Tkinter client",
 			"path": "tkinter-client"
 		},
+		{
+			"name": "build tools",
+			"path": "build-tools"
+		}
 		{
 			"name": "minecraft",
 			"path": "/var/minecraft"
