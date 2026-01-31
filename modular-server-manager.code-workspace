@@ -22,7 +22,7 @@
 		{
 			"name": "build tools",
 			"path": "build-tools"
-		}
+		},
 		{
 			"name": "minecraft",
 			"path": "/var/minecraft"
@@ -76,7 +76,13 @@
 				],
 				"tooltip": "Start the server, build it if necessary\n(equivalent to 'make start')",
 			}
-		]	
+		],
+		"json.schemas": [
+			{
+				"fileMatch": ["**/config.json" ],
+				"url": "https://raw.githubusercontent.com/AntoineBuirey/xml-json-schema/refs/tags/1.1.1/mc-server-manager/config.schema"
+			}
+		],
 	},
 	"extensions": {
 		"recommendations": [
