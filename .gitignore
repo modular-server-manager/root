@@ -2,6 +2,5 @@
 !.gitignore
 !*.code-workspace
 !install.py
-!build-tools/*
 !build.yml
 !common.build.yml
