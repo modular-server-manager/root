@@ -1,0 +1,7 @@
+imports:
+  - path: server
+    as: core
+  - path: web-server
+    as: web-server
+  - path: web-client
+    as: web-client

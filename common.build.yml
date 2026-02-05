@@ -1,0 +1,4 @@
+vars:
+  build_tools: $(realpath ${PROJECT_DIR}/build-tools)
+  get_version: ${PYTHON} ${build_tools}/get_version.py
+  create_metadata: ${PYTHON} ${build_tools}/create_metadata.py
